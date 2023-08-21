@@ -165,7 +165,7 @@ The Store maintains data on disk in the
 Context
 #######
 
-The context component is the the :package-api:`tezos-context <octez-libs/Tezos_context/index.html>` package, implemented in the :src:`src/lib_context`
+The context component is the :package-api:`tezos-context <octez-libs/Tezos_context/index.html>` package, implemented in the :src:`src/lib_context`
 library. It is a versioned key/value store that associates to each
 block a view of its ledger state. The :package-api:`on-disk context API <octez-libs/Tezos_context_disk/index.html>` exports versioning concepts similar
 to `Git <https://git-scm.com/>`_. The current implementation is using
