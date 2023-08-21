@@ -224,7 +224,7 @@ signature that binds the whole transaction together and guarantees the
 correctness of the balance.
 All the signatures are over the hash of the data that we wish to sign
 and the hash function used is Blake2-b, prefixed with the anti-replay string.
-The anti-replay string is the the concatenation of the chain id and
+The anti-replay string is the concatenation of the chain id and
 the smart contract address. The same string has to be used by the client for
 signing.
 
