@@ -53,7 +53,7 @@ the Octez client to ``HEAD~2``. Setting the ``branch`` field to
 ``HEAD`` or ``HEAD~1`` may result in the operation not being included
 because it will not be anchored on a block belonging to the
 chain. (The blocks at the current and previous levels are not
-necessary final.)
+necessarily final.)
 
 Block headers
 ~~~~~~~~~~~~~
@@ -225,7 +225,7 @@ The following RPCs are new:
 
   - ``expected_cycle_activity`` indicates the number of endorsing
     slots the delegate is expected to have in the cycle based on its
-    active stake. This number does not necessary equal the number of
+    active stake. This number does not necessarily equal the number of
     slots the delegate actually has, which are also dependent on the
     cycle's seed.
 
