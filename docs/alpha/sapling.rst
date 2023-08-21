@@ -193,7 +193,7 @@ clients and analysis of number of inputs/outputs just to mention a few
 (`A fistful of Bitcoins
 <https://dblp.org/rec/journals/cacm/MeiklejohnPJLMV16.html>`_ is a good
 first read).
-We advice users to be familiar with the use of the TOR network and to
+We advise users to be familiar with the use of the TOR network and to
 use clients developed specifically to protect their privacy.
 
 
@@ -224,7 +224,7 @@ signature that binds the whole transaction together and guarantees the
 correctness of the balance.
 All the signatures are over the hash of the data that we wish to sign
 and the hash function used is Blake2-b, prefixed with the anti-replay string.
-The anti-replay string is the the concatenation of the chain id and
+The anti-replay string is the concatenation of the chain id and
 the smart contract address. The same string has to be used by the client for
 signing.
 
@@ -308,7 +308,7 @@ This can be mitigated by making a service that act as a proxy by
 forwarding the user transactions and paying it fees. The user would
 then include in the transaction a shielded output for the service that
 covers the fees plus a small bonus to pay the service.
-This output can be open by the service before sending the transaction
+This output can be opened by the service before sending the transaction
 to check that there is enough money to cover its fees. As for Z-cash,
 users interacting with the proxy should use TOR or mitigate network
 analysis as they wish.
